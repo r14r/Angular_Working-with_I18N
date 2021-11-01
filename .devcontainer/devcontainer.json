@@ -1,0 +1,17 @@
+{
+	"name": "Angular SSR with I18N1",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+
+	"service": "app",
+	"workspaceFolder": "/app",
+
+	"settings": {},
+	"extensions": []
+	// "forwardPorts": [],
+	// "runServices": [],
+	// "shutdownAction": "none",
+	// "postCreateCommand": "apt-get update && apt-get install -y curl",
+	// "remoteUser": "vscode"
+}

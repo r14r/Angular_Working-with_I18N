@@ -1,0 +1,27 @@
+{
+  "i18n-demo-header": "I18N Demo",
+  "header": "I18N Funktionalität in Angular",
+  "header-text": "Erstellen einer Angular App mit der Untestützung für mehrere Sprachen.",
+  "Continue reading...": "Weiter...",
+  "demo": {
+    "title": "Übersetzungsdemo",
+    "text": "Dies ist ein einfache Beispiel für die Übersetzung mit ngx-translate",
+    "greeting": "Hallo {{name}}!"
+  },
+  "develop": {
+    "title": "ÜBER ALLE PLATTFORMEN ENTWICKELN",
+    "text": "Lernen Sie eine Möglichkeit, mit Angular Anwendungen zu erstellen, und verwenden Sie Ihren Code und Ihre Fähigkeiten wieder, um Apps für jedes Bereitstellungsziel zu erstellen. Für Web, mobiles Web, native mobile und native Desktops."
+  },
+  "speed": {
+    "title": "GESCHWINDIGKEIT & LEISTUNG",
+    "text": "Erzielen Sie die maximale Geschwindigkeit, die heute auf der Webplattform möglich ist, und steigern Sie sie durch Webworker und serverseitiges Rendering.<br>Angular gibt Ihnen die Kontrolle über die Skalierbarkeit. Erfüllen Sie enorme Datenanforderungen durch Erstellen von Datenmodellen auf RxJS, Immutable.js oder ein anderes Push-Modell."
+  },
+  "tooling": {
+    "title": "UNGLAUBLICHE WERKZEUGE",
+    "text": "Mit einfachen, deklarativen Vorlagen schnell Funktionen erstellen. Erweitern Sie die Vorlagensprache mit Ihren eigenen Komponenten und verwenden Sie eine Vielzahl vorhandener Komponenten. Erhalten Sie sofortige Angular-spezifische Hilfe und Feedback zu fast jeder IDE und jedem Editor. All dies kommt zusammen So können Sie sich auf die Entwicklung großartiger Apps konzentrieren, anstatt zu versuchen, den Code zum Laufen zu bringen."
+  },
+  "loved-by": {
+    "title": "VON MILLIONEN GELIEBT",
+    "text": "Vom Prototyp bis zur globalen Bereitstellung bietet Angular die Produktivität und skalierbare Infrastruktur, die die größten Anwendungen von Google unterstützt."
+  }
+}

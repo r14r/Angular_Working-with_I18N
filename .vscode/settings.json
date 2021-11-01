@@ -1,0 +1,28 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": true,
+        "**/e2e": true,
+        "**/browserslist": true,
+        "**/tsconfig.json": true,
+        "**/tsconfig.app.json": true,
+        "**/tsconfig.server.json": true,
+        "**/tslint.json": true,
+        "**/server.ts": true,
+        "**/src/main.ts": true,
+        "**/src/polyfills.ts": true,
+        "**/*.spec.json": true,
+        "**/*.spec.ts": true,
+        "**/karma.conf.js": true,
+        "**/angular.json": true,
+        "**/.gitignore": true,
+        "**/.browserslistrc": true,
+        "**/package-lock.json": true
+    },
+    "explorerExclude.backup": null,
+}

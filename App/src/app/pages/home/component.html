@@ -1,0 +1,42 @@
+<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div class="col-md-12 px-0">
+        <h1>{{'header' | translate }}</h1>
+        <p class="lead my-3">{{'header-text'| translate }}</p>
+        <p class="lead mb-0"><a href="#" class="text-white fw-bold">{{ 'Continue reading...'| translate }} </a></p>
+    </div>
+</div>
+
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownFlags" data-bs-toggle="dropdown"
+        aria-expanded="false"><span class="flag-icon flag-icon-us"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownFlags">
+        <li><a class="dropdown-item active" href="#"><span class="flag-icon flag-icon-us"></span></a></li>
+        <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de"></span></a>
+        </li>
+    </ul>
+
+    <select class="xdropdown-menu" (change)="changeLanguage($event)">
+        <option value="">Choose Language</option>
+        <option class="dropdown-item" *ngFor="let lang of languages" [ngValue]="lang">{{lang}}</option>
+    </select>
+</div>
+
+<button (click)="useLanguage('us')">us</button>
+<button (click)="useLanguage('de')">de</button>
+
+<div>
+    <h3>Simpel Demonstration</h3>
+    <p>{{ 'demo.text' | translate }}</p>
+    <p [translate]="'demo.text'"></p>
+    <p translate>demo.text</p>
+</div>
+
+<div>
+    <h3>Translations with parameters</h3>
+    <span>{{ 'demo.greeting' | translate:{'name':'Andreas'} }}</span>
+    <span [translate]="'demo.greeting'" [translateParams]="{name: 'Ralph'}"></span>
+    <span translate [translateParams]="{name: 'Donald Duck'}">demo.greeting</span>
+</div>
+
+<hr />

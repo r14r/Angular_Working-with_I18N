@@ -1,0 +1,28 @@
+{
+  "i18n-demo-header": "I18N Sample",
+  "compB": "Komponente B funktioniert",
+  "header": "I18N functionality in angular",
+  "header-text": "Simple demonstration of multi-language apps in angular",
+  "Continue reading...": "Continue reading...",
+  "demo": {
+    "title": "Translation demo",
+    "text": "This is a simple demonstration app for ngx-translate",
+    "greeting": "Hello {{name}}!"
+  },
+  "develop": {
+    "title": "DEVELOP ACROSS ALL PLATFORMS",
+    "text": "Learn one way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop."
+  },
+  "speed": {
+    "title": "SPEED & PERFORMANCE",
+    "text": "Achieve the maximum speed possible on the Web Platform today, and take it further, via Web Workers and server-side rendering.<br>Angular puts you in control over scalability. Meet huge data requirements by building data models on RxJS, Immutable.js or another push-model."
+  },
+  "tooling": {
+    "title": "INCREDIBLE TOOLING",
+    "text": "Build features quickly with simple, declarative templates. Extend the template language with your own components and use a wide array of existing components. Get immediate Angular-specific help and feedback with nearly every IDE and editor. All this comes together so you can focus on building amazing apps rather than trying to make the code work."
+  },
+  "loved-by": {
+    "title": "LOVED BY MILLIONS",
+    "text": "From prototype through global deployment, Angular delivers the productivity and scalable infrastructure that supports Google's largest applications."
+  }
+}
