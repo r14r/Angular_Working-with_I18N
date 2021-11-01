@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Demo</a>
+            <a class="navbar-brand" href="#">I18N</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -12,12 +12,9 @@
                         <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" [routerLink]="['/demo']" [queryParams]="{debug: true}" fragment="education">
+                        <a class="nav-link" [routerLink]="['/demo']">
                             Demo
                         </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
                     </li>
                 </ul>
                 <!--
@@ -27,14 +24,19 @@
                 </form>
                 -->
 
-                <div class="dropdown">
-                    <button #dropdownflags class="btn btn-primary dropdown-toggle" type="button" id="dropdownFlags"
-                        data-bs-toggle="dropdown" aria-expanded="false"><span class="flag-icon flag-icon-us"></span>
+                <div class="btn-group dropstart">
+
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownFlags"
+                        data-bs-toggle="dropdown" aria-expanded="false"><span
+                            class="flag-icon flag-icon-{{currentlang}}"></span>
                     </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownFlags">
-                        <li *ngFor="let lang of languages" [value]="lang" (click)="onClick($event)">
-                            <a class="dropdown-item"><span class=" flag-icon flag-icon-{{lang}}"></span>{{lang |
-                                uppercase}}</a>
+                    <ul class="dropdown-menu">
+                        <li *ngFor="let lang of languages" [value]="lang" (click)="useLanguage(lang)">
+                            <a class="dropdown-item" [ngClass]="{'active': currentlang == lang}">
+                                <span class="flag-icon flag-icon-{{lang}}"></span>
+                                &nbsp;
+                                {{lang | uppercase}}
+                            </a>
                         </li>
                     </ul>
                 </div>

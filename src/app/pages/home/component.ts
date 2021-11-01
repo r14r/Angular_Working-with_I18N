@@ -8,11 +8,11 @@ import { TranslateService } from '@ngx-translate/core';
 import defaultLanguage from '../../../assets/i18n/de.json';
 
 @Component({
-    selector: 'app-demo-page',
+    selector: 'app-home-page',
     templateUrl: './component.html',
     styleUrls: ['./component.scss'],
 })
-export class DemoPageComponent implements OnInit {
+export class HomePageComponent implements OnInit {
     constructor(
         private translate: TranslateService,
         private elementRef: ElementRef,

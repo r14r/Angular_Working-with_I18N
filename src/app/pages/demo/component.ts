@@ -5,11 +5,11 @@ import { TranslateService } from '@ngx-translate/core';
 import defaultLanguage from '../../../assets/i18n/de.json';
 
 @Component({
-    selector: 'app-home-page',
+    selector: 'app-demo-page',
     templateUrl: './component.html',
     styleUrls: ['./component.scss'],
 })
-export class HomePageComponent implements OnInit {
+export class DemoPageComponent implements OnInit {
     languages = ['us', 'de', 'fr', 'sp'];
     lang = 'us';
 

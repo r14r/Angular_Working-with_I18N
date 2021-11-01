@@ -8,11 +8,10 @@
 /bazel-out
 
 # dependencies
-**/node_modules
+/node_modules
 
 # profiling files
-chrome-profiler-events.json
-speed-measure-plugin.json
+chrome-profiler-events*.json
 
 # IDEs and editors
 /.idea
@@ -21,6 +20,7 @@ speed-measure-plugin.json
 .c9/
 *.launch
 .settings/
+*.sublime-workspace
 
 # IDE - VSCode
 .vscode/*
@@ -39,7 +39,6 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-src/assets/i18n/autogen/*
 
 # System Files
 .DS_Store
