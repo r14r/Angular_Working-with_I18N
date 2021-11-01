@@ -1,7 +1,7 @@
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">I18N</a>
+            <a class="navbar-brand" href="#"><img src="assets/img/logo-angular.png" height="40px" width="auto"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -9,20 +9,16 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
+                    <!--
                     <li class="nav-item">
                         <a class="nav-link" [routerLink]="['/demo']">
                             Demo
                         </a>
                     </li>
+                    -->
                 </ul>
-                <!--
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-                -->
 
                 <div class="btn-group dropstart">
 
@@ -45,17 +41,14 @@
     </nav>
 </header>
 
-<!-- Begin page content -->
 <main class="flex-shrink-0">
     <div class="container">
         <router-outlet></router-outlet>
     </div>
 </main>
 
-<!--
 <footer class="footer mt-auto py-3 bg-dark">
     <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <span class="text-muted">(C) Ralph Göstenmeier</span>
     </div>
 </footer>
--->

@@ -14,10 +14,7 @@ export class AppComponent {
     languages = ['us', 'de', 'fr', 'sp'];
     currentlang = 'us';
 
-    constructor(
-        private translate: TranslateService
-    ) {
-        console.log('AppComponent/constructor: setTranslations');
+    constructor(private translate: TranslateService) {
         this.currentlang = 'de';
         translate.setTranslation(this.currentlang, defaultLanguage);
         translate.setDefaultLang(this.currentlang);
@@ -27,8 +24,6 @@ export class AppComponent {
 
     useLanguage(language: string): void {
         this.currentlang = language;
-        
-        console.log('AppComponent/constructor: useLanguage "' + language + '"');
         this.translate.use(language.toLowerCase());
     }
 }

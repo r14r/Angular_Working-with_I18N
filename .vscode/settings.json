@@ -26,7 +26,8 @@
         "**/docker-compose.yml": true,
         "**/bootstrap-examples": true,
         "**/Dockerfile": true,
-        "**/Makefile": true
+        "**/Makefile": true,
+        "src\\app\\pages/demo": true
     },
     "explorerExclude.backup": null,
 }
