@@ -22,7 +22,11 @@
         "**/angular.json": true,
         "**/.gitignore": true,
         "**/.browserslistrc": true,
-        "**/package-lock.json": true
+        "**/package-lock.json": true,
+        "**/docker-compose.yml": true,
+        "**/bootstrap-examples": true,
+        "**/Dockerfile": true,
+        "**/Makefile": true
     },
     "explorerExclude.backup": null,
 }

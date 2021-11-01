@@ -1,5 +1,7 @@
 # App I18N
 
+
+![video](doc/video.gif)
 ## Install ngx-translate
 
 ```
